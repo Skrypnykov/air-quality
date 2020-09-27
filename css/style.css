@@ -275,9 +275,14 @@ body {
 .footer-logo-link:not(:last-child) {
 	margin-right: 120px;
 }
-.footer-nav-list {
+.footer-nav {
 	margin-top: 27px;
-}width: 1270px; height: 560px;'
+}
+.footer-nav-list {
+	list-style: none;
+}
+.footer-nav-item {
+	margin-bottom: 20px;
 }
 .footer-nav-link {
 	font-family: Roboto;
