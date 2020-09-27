@@ -146,11 +146,11 @@ body {
 }
 .owl-carousel .owl-nav button.owl-next {
 	bottom: 350px;
-	right: -30px;
+	right: 0px;
 }
 .owl-carousel .owl-nav button.owl-prev {
 	bottom: 350px;
-	left: -30px;
+	left: 0px;
 }
 .owl-theme .owl-nav [class*=owl-]:hover {
 	background-color: transparent;
