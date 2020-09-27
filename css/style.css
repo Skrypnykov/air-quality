@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @font-face {
 	font-family: HelveticaNeueCyr;
-	src: url(../fonts/HelveticaNeueCyr-Light.ttf);
+	src: url(../fonts/helveticaneuecyr-light.ttf);
 }
 
 /* global */
@@ -146,11 +146,11 @@ body {
 }
 .owl-carousel .owl-nav button.owl-next {
 	bottom: 350px;
-	right: -50px;
+	right: -30px;
 }
 .owl-carousel .owl-nav button.owl-prev {
 	bottom: 350px;
-	left: -50px;
+	left: -30px;
 }
 .owl-theme .owl-nav [class*=owl-]:hover {
 	background-color: transparent;
@@ -170,8 +170,9 @@ body {
 	text-align: center;
 	margin-bottom: 35px;
 }
-.quality-map {
-	max-width: 100%;
+#map {
+	max-width: 1270px; 
+	height: 560px;
 }
 
 .quality-content {
@@ -276,12 +277,7 @@ body {
 }
 .footer-nav-list {
 	margin-top: 27px;
-}
-.footer-nav-item {
-	list-style: none;
-}
-.footer-nav-item:not(:last-child) {
-	margin-bottom: 20px;
+}width: 1270px; height: 560px;'
 }
 .footer-nav-link {
 	font-family: Roboto;
