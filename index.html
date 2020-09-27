@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+
+	<script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
+	<link href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
+
+	
+	<link rel="stylesheet" href="css/style.css">
+
+	<title>Air quality</title>
+</head>
+<body>
+	<section class="hero">
+		<div class="content-container">
+			<div class="hero-logo-wrapper">
+				<a class="hero-logo-link" href=""><img class="hero-logo" src="img/logo-Shid.png" alt=""></a>
+				<a class="hero-logo-link" href=""><img class="hero-logo" src="img/logo-ITN.png" alt=""></a>
+				<a class="hero-logo-link" href=""><img class="hero-logo" src="img/logo-GC.png" alt=""></a>
+			</div>
+			<nav class="hero-nav">
+				<ul class="hero-nav-list">
+					<li class="hero-nav-item"><a class="hero-nav-link" href="#facts">Основные факты</a></li>
+					<li class="hero-nav-item"><a class="hero-nav-link" href="#quality">Индекс качества воздуха</a></li>
+					<li class="hero-nav-item"><a class="hero-nav-link" href="#politics">Политика по уменьшению загрязнений</a></li>
+				</ul>
+			</nav>
+			<h1 class="hero-title">Качество атмосферного воздуха и здоровье</h1>
+			<div class="hero-button"><a class="hero-button-link" href="#">Отследить</a></div>
+		</div>
+	</section>
+	<section class="facts" id="facts">
+		<div class="content-container">
+			<h2 class="facts-title">Основные факты</h2>
+			
+			<div class="facts-slider owl-carousel owl-theme owl-loaded" id="slider">
+				<div class="owl-stage-outer">
+					<div class="facts-slider-list owl-stage">
+						<div class="facts-slider-item owl-item">
+							<div class="slider-item-wrapper">
+								<a href="" class="slider-item-link">
+									<img class="slider-item-img" src="img/fact-img-1.png" alt="">
+									<h4 class="slider-item-title">Женщины и дети – главные жертвы загрязнения воздуха</h4>
+								</a>
+							</div>
+						</div>
+						<div class="facts-slider-item owl-item">
+							<div class="slider-item-wrapper">
+								<a href="" class="slider-item-link">
+									<img class="slider-item-img" src="img/fact-img-2.png" alt="">
+									<h4 class="slider-item-title">Защитники окружающей среды подвергаются преследованиям</h4>
+								</a>
+							</div>
+						</div>
+						<div class="facts-slider-item owl-item">
+							<div class="slider-item-wrapper">
+								<a href="" class="slider-item-link">
+									<img class="slider-item-img" src="img/fact-img-3.png" alt="">
+									<h4 class="slider-item-title">Загрязнение воздуха – нарушение прав человека</h4>
+								</a>
+							</div>
+						</div>
+						<div class="facts-slider-item owl-item">
+							<div class="slider-item-wrapper">
+								<a href="" class="slider-item-link">
+									<img class="slider-item-img" src="img/fact-img-4.png" alt="">
+									<h4 class="slider-item-title">4,2 миллиона случаев преждевременной смерти людей из-за загрязнения атмосферного воздуха</h4>
+								</a>
+							</div>
+						</div>
+						<div class="facts-slider-item owl-item">
+							<div class="slider-item-wrapper">
+								<a href="" class="slider-item-link">
+									<img class="slider-item-img" src="img/fact-img-5.png" alt="">
+									<h4 class="slider-item-title">Согласно оценкам, суммарный объем затрат в связи с загрязнением воздуха превышает 5 трлн долл. в год.</h4>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+	<section class="quality" id="quality">
+		<div class="content-container">
+			<h2 class="quality-title">Индекс качества воздуха в режиме реального времени</h2>
+			<div class="quality-map">
+				<div id='map' style='width: 1270px; height: 560px;'></div>
+			</div>
+			<p class="quality-content">Для того чтобы узнать уровень загрязнения атмосферного воздуха (качество воздуха) в городе Киев, необходимо выбрать соответствующую станцию мониторинга на карте выше.</p>
+		</div>
+	</section>
+	<section class="politics" id="politics">
+		<div class="content-container">
+			<h2 class="politics-title">Политика по уменьшению загрязнений</h2>
+			<p class="politics-content">Есть много примеров успешной политики по уменьшению загрязнения воздуха в таких секторах, как транспорт, городское планирование, энергетика и промышленность:</p>
+			<div class="politics-list">
+
+				<div class="politics-item-wrapper">
+					<img src="img/politics-img-1.png" alt="" class="politics-item-img">
+					<h3 class="politics-item-title">Промышленность</h3>
+					<div class="politics-item-hover">
+						<p class="politics-item-content">Чистые технологии, способствующие уменьшению выбросов из промышленных дымовых труб; улучшенная утилизация городских и сельскохозяйственных отходов, включая каптаж (улавливание) метана, выделяемого в местах утилизации отходов, в качестве варианта, альтернативного сжиганию (для использования в качестве биогаза)</p>
+					</div>
+				</div>
+				<div class="politics-item-wrapper">
+					<img src="img/politics-img-2.png" alt="" class="politics-item-img">
+					<h3 class="politics-item-title">Транспорт</h3>
+					<div class="politics-item-hover">
+						<p class="politics-item-content">Переход к чистым способам выработки энергии; уделение приоритетного внимания скоростному городскому транспорту, пешеходным и велосипедным сетям в городах, а также железнодорожным междугородным грузовым и пассажирским перевозкам; переход к использованию более чистых большегрузных дизельных транспортных средств и автомобилей с низким уровнем выбросов, а также более чистых видов топлива, включая топливо со сниженной концентрацией серы</p>
+					</div>
+				</div>
+				<div class="politics-item-wrapper">
+					<img src="img/politics-img-3.png" alt="" class="politics-item-img">
+					<h3 class="politics-item-title">Городское планирование</h3>
+					<div class="politics-item-hover">
+						<p class="politics-item-content">Улучшение энергетической эффективности зданий и обеспечение более зеленых и компактных и тем самым более энергоэффективных городов</p>
+					</div>
+				</div>
+				<div class="politics-item-wrapper">
+					<img src="img/politics-img-4.png" alt="" class="politics-item-img">
+					<h3 class="politics-item-title">Энергия</h3>
+					<div class="politics-item-hover">
+						<p class="politics-item-content">Обеспечение доступа к недорогостоящим источникам энергии в быту для приготовления пищи, отопления и освещения</p>
+					</div>
+				</div>
+				<div class="politics-item-wrapper">
+					<img src="img/politics-img-5.png" alt="" class="politics-item-img">
+					<h3 class="politics-item-title">Энергетика</h3>
+					<div class="politics-item-hover">
+						<p class="politics-item-content">Более широкое использование видов топлива с низким уровнем выбросов и возобновляемых источников энергии, не основанных на сжигании (таких как энергия солнца, ветра или гидроэнергия); комбинированная выработка тепла и энергии; и распределенная выработка энергии (например, энергетические минисистемы и размещаемые на крыше установки для выработки энергии из солнечной энергии)</p>
+					</div>
+				</div>
+				<div class="politics-item-wrapper">
+					<img src="img/politics-img-6.png" alt="" class="politics-item-img">
+					<h3 class="politics-item-title">Утилизация отходов</h3>
+					<div class="politics-item-hover">
+						<p class="politics-item-content">Cтратегии уменьшения отходов, сортировки отходов, рециклирования, повторного использования или переработки отходов; а также улучшенные методы биологической утилизации отходов, такие как анаэробная переработка отходов для производства биогаза, являются практически осуществимыми, недорогими альтернативными вариантами открытому сжиганию твердых отходов</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="content-container">
+			<div class="footer-logo-wrapper">
+				<a class="footer-logo-link" href=""><img class="footer-logo" src="img/logo-footer-Shid.png" alt=""></a>
+				<a class="footer-logo-link" href=""><img class="footer-logo" src="img/logo-footer-ITN.png" alt=""></a>
+				<a class="footer-logo-link" href=""><img class="footer-logo" src="img/logo-footer-GC.png" alt=""></a>
+			</div>
+			<nav class="footer-nav">
+				<ul class="footer-nav-list">
+					<li class="footer-nav-item"><a class="footer-nav-link" href="#facts">Основные факты</a></li>
+					<li class="footer-nav-item"><a class="footer-nav-link" href="#quality">Индекс качества воздуха</a></li>
+					<li class="footer-nav-item"><a class="footer-nav-link" href="#politics">Политика по уменьшению загрязнений</a></li>
+				</ul>
+			</nav>
+			<p class="footer-authors">
+				Сайт был разработан <span>Никитой Ямником</span> в учебных целях, в рамках образовательной программы IT nation. Дизайн сайта создан <span>Валерией Бубырь</span>.
+			</p>
+			<div class="footer-copyright">
+				<a class="footer-copyright-link" href=""><p class="copyright">2020, Все права защищены</p></a>
+				<a class="footer-copyright-link" href=""><p class="copyright-agree">Согласие на обработку персональных данных<br> Политика конфиденциальности</p></a>
+			</div>
+		</div>
+	</footer>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="owlcarousel/owl.carousel.min.js"></script>
+	<script src="js/script.js"></script>
+
+</body>
+</html>
