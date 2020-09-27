@@ -55,7 +55,6 @@ body {
 .hero-nav-link:hover {
 	color: #d1d1d1;
 }
-
 .hero-title {
 	margin-top: 108px;
 	width: 664px;
@@ -236,7 +235,6 @@ body {
 	height: 100%;
 	margin-top: 0;
 }
-
 .politics-item-hover {
 	display: none;
 	position: absolute;
@@ -247,7 +245,6 @@ body {
 	clip-path: polygon(15% 0, 100% 0, 100% 100%, 15% 100%, 5% 50%);
 	z-index: 1;
 }
-
 .politics-item-wrapper:nth-child(3n) .politics-item-hover {
 	left: initial;
     right: 95%;
@@ -256,7 +253,6 @@ body {
 }
 .politics-item-wrapper:hover .politics-item-hover {
 	display: inline-block;
-	
 }
 .politics-item-content {
 	font-family: Roboto;
