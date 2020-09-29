@@ -75,11 +75,10 @@ var marker = new mapboxgl.Marker({ color: 'gold' })
 .addTo(map);
 
 // button-vector scroll
-const hiddenElement = document.getElementById("map");
-const button = document.querySelector(".button-vector");
+var hiddenElement = document.getElementById("map");
+var button = document.querySelector(".button-vector");
 
 function handleButtonClick() {
   hiddenElement.scrollIntoView({ block: "center", behavior: "smooth" });
 }
-
 button.addEventListener("click", handleButtonClick);
