@@ -327,6 +327,7 @@ body {
 	margin: 11px 0 14px ;
 }
 
+/* media request */
 @media (max-width: 414px){
 	.hero {
 		padding: 0 0 75px;
@@ -351,7 +352,7 @@ body {
 		padding: 0 20px;
 	}
 	.hero-button {
-		margin-top: 267px;
+		margin-top: 30%;
 		height: 79px;
 		width: 100%;
 	}
