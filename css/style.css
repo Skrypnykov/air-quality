@@ -328,7 +328,7 @@ body {
 }
 
 /* media request */
-@media (max-width: 414px){
+@media screen and (max-width: 414px){
 	.hero {
 		padding: 0 0 75px;
 		height: 100vh;
