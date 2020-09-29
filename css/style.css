@@ -353,6 +353,7 @@ body {
 	.hero-button {
 		margin-top: 267px;
 		height: 79px;
+		width: 100%;
 	}
 	.hero-nav {
 		display: none;
