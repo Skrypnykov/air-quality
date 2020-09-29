@@ -346,13 +346,13 @@ body {
 		align-items: flex-start;
 	}
 	.hero-title {
-		margin-top: 35%;
+		margin-top: 25%;
 		font-size: 2em;
 		line-height: 1em;
 		padding: 0 20px;
 	}
 	.hero-button {
-		margin-top: 30%;
+		margin-top: 20%;
 		height: 79px;
 		width: 100%;
 	}
@@ -368,7 +368,7 @@ body {
 		outline: 0;
 		display: inline-block;
 		position: relative;
-		top: 3em;
+		top: 2em;
 		left: calc(50% - 32px);
 		cursor: pointer;
 	}
