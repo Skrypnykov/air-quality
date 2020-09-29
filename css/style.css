@@ -356,6 +356,8 @@ body {
 		height: 79px;
 		width: 100%;
 	}
+	.hero-button-link {
+		padding: 0;
 	.hero-nav {
 		display: none;
 	}
