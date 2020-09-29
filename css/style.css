@@ -346,13 +346,13 @@ body {
 		align-items: flex-start;
 	}
 	.hero-title {
-		margin-top: 25%;
+		margin-top: 30hv;
 		font-size: 2em;
 		line-height: 1em;
 		padding: 0 20px;
 	}
 	.hero-button {
-		margin-top: 20%;
+		margin-top: 25hv;
 		height: 79px;
 		width: 100%;
 	}
