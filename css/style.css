@@ -276,8 +276,10 @@ body {
 
 /* footer */
 .footer {
-	position: relative;
 	border-top: 1px solid #fff;
+}
+.footer .content-container {
+	position: relative;
 }
 .footer-logo-wrapper {
 	display: flex;
@@ -308,7 +310,7 @@ body {
 .footer-authors {
 	position: absolute;
 	top: 170px;
-	right: 88px;
+	right: 0;
 	font-family: Roboto;
 	font-size: 17px;
 	line-height: 25px;
@@ -334,6 +336,7 @@ body {
 .copyright-agree {
 	margin: 11px 0 14px ;
 }
+
 
 /* media request */
 @media screen and (max-width: 414px){
@@ -486,7 +489,6 @@ body {
 		text-align: center;
 	}
 
-
 	.facts-title {
 		font-size: 27px;
 	}
@@ -564,7 +566,6 @@ body {
 	.politics-item-wrapper:nth-child(3n) .politics-item-hover {
 		clip-path: none;
 		position: absolute;
-		_position: static;
 		top: 100px;
 		left: -20px;
 		width: 100%;
