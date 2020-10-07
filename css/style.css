@@ -345,8 +345,8 @@ body {
 		height: 100vh;
 	}
 	.hero .content-container {
-		display: flex;
-		flex-direction: column;
+		position: relative;
+		height: 100vh;
 	}
 	.hero-logo-wrapper {
 		max-width: 70%;;
@@ -357,19 +357,25 @@ body {
 	.hero-logo-link {
 		margin: 0;
 		display: flex;
-		justify-content: flex-start;
-		align-items: flex-start;
 	}
 	.hero-title {
-		margin-top: 58%;
+		margin-top: 0;
 		font-size: 2em;
 		line-height: 1em;
 		padding: 0 20px;
+		position: absolute;
+		top: 40%;
+	}
+
+	.hero-button-wrapper {
+		position: absolute;
+		bottom: 15px;
+		width: 100%;
+		text-align: center;
 	}
 	.hero-button {
-		margin-top: 35%;
+		margin-top: 0;
 		height: 79px;
-		width: 100%;
 	}
 	.hero-button-link {
 		padding: 0;
@@ -379,7 +385,7 @@ body {
 		border: 0;
 		outline: 0;
 		display: inline-block;
-		margin-top: 15px;
+		margin-top: 25px;
 		cursor: pointer;
 	}
 
@@ -443,7 +449,7 @@ body {
 		top: 0;
 		left: -100%;
 		width: 100%;
-		height: 818px;
+		height: 100vh;
 		margin: 0;
 		padding: 14em 0 0;
 		background-color: #737373;
@@ -470,7 +476,7 @@ body {
 		display: block;
 		position: absolute;
 		visibility: hidden;
-		bottom: 0;
+		bottom: 10px;
 		left: -100%;
 		width: 100%;
 		background-color: #737373;
