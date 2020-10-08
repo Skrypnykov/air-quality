@@ -27,6 +27,7 @@ body {
 	background-image: url("../img/bg-hero.jpg");
 	background-size: cover;
 	padding: 0 0 178px;
+	height: 100vh;
 }
 .hero-logo-wrapper {
 	display: flex;
