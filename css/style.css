@@ -26,7 +26,7 @@ body {
 .hero {
 	background-image: url("../img/bg-hero.jpg");
 	background-size: cover;
-	padding: 0 0 178px;
+	-padding: 0 0 178px;
 	height: 100vh;
 }
 .hero-logo-wrapper {
@@ -530,7 +530,7 @@ body {
 		height: 560px;
 	}
 	.quality-content {
-		margin: 20px 20px;
+		margin: 20px 30px;
 		font-size: 17px;
 		line-height: 20px;
 	}
