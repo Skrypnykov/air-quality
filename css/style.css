@@ -26,7 +26,6 @@ body {
 .hero {
 	background-image: url("../img/bg-hero.jpg");
 	background-size: cover;
-	-padding: 0 0 178px;
 	height: 100vh;
 }
 .hero-logo-wrapper {
@@ -185,7 +184,6 @@ body {
 	max-width: 1270px; 
 	height: 560px;
 }
-
 .quality-content {
 	margin-top: 35px;
 	font-family: Roboto;
@@ -226,7 +224,6 @@ body {
 	cursor: pointer;
 	position: relative;
 }
-
 .politics-item-title {
 	position: absolute;
 	top: 0;
@@ -337,9 +334,8 @@ body {
 	margin: 11px 0 14px ;
 }
 
-
 /* media request */
-@media screen and (max-width: 465px){
+@media screen and (max-width: 414px){
 	.hero {
 		padding: 0 0 75px;
 		height: 100vh;
@@ -365,8 +361,9 @@ body {
 		padding: 0 20px;
 		position: absolute;
 		top: 40%;
+		width: 100%;
+		text-align: left;
 	}
-
 	.hero-button-wrapper {
 		position: absolute;
 		bottom: 15px;
@@ -442,7 +439,6 @@ body {
 		content: '';
 		top: 8px;
 	}
-	
 	.hero-nav-list {
 		display: block;
 		position: absolute;
@@ -497,7 +493,6 @@ body {
 		line-height: 15px;
 		text-align: center;
 	}
-
 	.facts-title {
 		font-size: 27px;
 		margin: 0 20px 20px;
@@ -516,11 +511,7 @@ body {
 		line-height: 32px;
 		color: #FFFFFF;
 		text-align: center;
-		margin-bottom: 22px;
-	}
-
-	.quality-title {
-		margin: 0 20px 20px;
+		margin: 0 20px 22px;
 	}
 	.quality-map {
 		margin: 0 30px;
@@ -552,7 +543,6 @@ body {
 		cursor: pointer;
 		position: relative;
 	}
-	
 	.politics-item-title {
 		position: absolute;
 		top: 0;
