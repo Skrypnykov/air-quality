@@ -21,6 +21,7 @@ $(document).ready(function(){
     });
 });
 
+// mapbox gl 
 mapboxgl.accessToken = 'pk.eyJ1Ijoic2tyeXBueWtvdiIsImEiOiJja2ZsYTdkbzEwZGdqMnFwc2dyMHBnZTl0In0.XQ6qUunUpxoUThIMrGLbPQ';
 var map = new mapboxgl.Map({
     container: 'map',
@@ -29,6 +30,8 @@ var map = new mapboxgl.Map({
     zoom: 5,
 });
 
+map.scrollZoom.disable();
+
 // Geolocate Control
 map.addControl(new mapboxgl.GeolocateControl({
     positionOptions: {
@@ -36,7 +39,6 @@ map.addControl(new mapboxgl.GeolocateControl({
     },
         trackUserLocation: true
 }));
-
 
 // mapcontrol
 map.addControl(new mapboxgl.NavigationControl());
