@@ -26,7 +26,7 @@ body {
 .hero {
 	background-image: url("../img/bg-hero.jpg");
 	background-size: cover;
-	height: 100vh;
+	height: 100%;
 }
 .hero-logo-wrapper {
 	display: flex;
@@ -63,7 +63,6 @@ body {
 	color: #FFFFFF;
 }
 .hero-button {
-	margin-top: 132px;
 	max-width: 458px;
 	width: 465px;
 	height: 101px;
@@ -85,6 +84,10 @@ body {
 }
 .button-vector {
 	display: none;
+}
+.hero-button-wrapper {
+	margin-top: 132px;
+	padding-bottom: 50px;
 }
 
 /* nav-toogle */
@@ -369,6 +372,7 @@ body {
 		bottom: 15px;
 		width: 100%;
 		text-align: center;
+		padding-bottom: 0;
 	}
 	.hero-button {
 		margin-top: 0;
@@ -448,14 +452,14 @@ body {
 		width: 100%;
 		height: 100vh;
 		margin: 0;
-		padding: 14em 0 0;
+		padding: 13em 0 0;
 		background-color: #737373;
 		transition-duration: .25s;
 		z-index: 5;
 	}
 	.hero-nav-item {
 		display: block;
-		padding: 20px 40px;
+		padding: 15px 40px;
 		color: #fff;
 		font-family: 'Roboto', sans-serif;
 		font-size: 23px;
@@ -482,7 +486,7 @@ body {
 	}
 	.nav-copyright-link {
 		display: block;
-		padding: 10px 40px;
+		padding: 5px 40px 0;
 		color: #fff;
 		transition-duration: .25s;
 		text-decoration: none;
