@@ -1,3 +1,4 @@
+// owlCarousel
 $(document).ready(function(){
     const slider = $("#slider").owlCarousel({
         items:3,
@@ -32,7 +33,7 @@ var map = new mapboxgl.Map({
 
 map.scrollZoom.disable();
 
-// Geolocate Control
+// geolocateControl
 map.addControl(new mapboxgl.GeolocateControl({
     positionOptions: {
         enableHighAccuracy: true
@@ -40,7 +41,7 @@ map.addControl(new mapboxgl.GeolocateControl({
         trackUserLocation: true
 }));
 
-// mapcontrol
+// mapControl
 map.addControl(new mapboxgl.NavigationControl());
 
 // markers 
